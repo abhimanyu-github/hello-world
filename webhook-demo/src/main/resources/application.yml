@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+webhook:
+  secret: change-me
+  defaultTargetUrl: http://localhost:8080/webhook
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
